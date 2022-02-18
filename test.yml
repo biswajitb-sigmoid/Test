@@ -1,0 +1,19 @@
+name: ali
+age: 28
+address:
+  cit: bbsr
+  state: odisha
+  post: jharapa
+  parents: 
+    name: "gagan bastia"
+    age: 54
+places_been:
+  - chennai
+  - kolkota
+  - bhubaneswar
+  - bangalore
+  - {STATE:KARNTATKA,CITY:BANGALORE}
+about_me: >
+  I am biswajit bastia.
+  born and bought in bbsr
+  trying to stay focus and calm
