@@ -1,4 +1,4 @@
-name: shell commands
+name: hyperion glue job
 
 on: [push,pull_request]
 
@@ -10,5 +10,6 @@ jobs:
         run: echo "Running Build Command"
       - name: test
         run: echo "Running tests"
-
+      - name: fail test
+        run: echhh failed
   
