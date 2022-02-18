@@ -1,0 +1,14 @@
+name: shell commands
+
+on: [push,pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo "Running Build Command"
+      - name: test
+        run: echo "Running tests"
+
+  
