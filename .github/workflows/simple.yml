@@ -8,8 +8,11 @@ jobs:
     steps:
       - name: echo
         run: echo "Running Build Command"
-      - name: test
-        run: echo "Running tests"
+      - name: python command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
 
   deploy_to_dev:
     runs-on: ubuntu-latest
